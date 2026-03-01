@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EduAttendance"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".greetings_page"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".student_login" android:exported="false" />
+        <activity android:name=".teachers_login" android:exported="false" />
+        <activity android:name=".student_register" android:exported="false" />
+        <activity android:name=".teacher_register" android:exported="false" />
+
+        <activity android:name=".student_homepage" android:exported="false" />
+        <activity android:name=".teacher_homepage" android:exported="false" />
+
+        <activity android:name=".student_profile" android:exported="false" />
+        <activity android:name=".teacher_profile" android:exported="false" />
+
+        <activity android:name=".student_scan_qr" android:exported="false" />
+        <activity android:name=".stud_attendance_history" android:exported="false" />
+        <activity android:name=".stud_upload_mc" android:exported="false" />
+
+        <activity android:name=".teacher_generate_qr" android:exported="false" />
+        <activity android:name=".view_attendance" android:exported="false" />
+        <activity android:name=".WarningLetterActivity" android:exported="false" />
+
+        <activity android:name=".mc_page" android:exported="false" />
+        <activity android:name=".mc_detail" android:exported="false" />
+        <activity android:name=".mc_list" android:exported="false" />
+
+    </application>
+
+</manifest>

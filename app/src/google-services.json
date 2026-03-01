@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "161816712775",
+    "firebase_url": "https://eduattend-fde95-default-rtdb.firebaseio.com",
+    "project_id": "eduattend-fde95",
+    "storage_bucket": "eduattend-fde95.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161816712775:android:648b0cf3ead97b3a6f0362",
+        "android_client_info": {
+          "package_name": "com.example.eduattendance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG4pmA-jC7oXAPvoWoqoj_PQBE4xHbrss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
